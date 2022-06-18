@@ -1,0 +1,31 @@
+0. git(git bash), VS code, sourceTree 다운
+1. 빈 폴더 하나를 만든다.
+2. VS Code를 열어서 해당 빈 폴더를 연다. 
+ (VS Code 옆 화면에 있는 목록 부분에 마우스 클릭해놓고 [컨트롤 + `] 를 누르면 터미널이 켜짐. )
+ 터미널을 git bash로 설정하기 :  (컨트롤 + shift + p를 누르면 검색화면이 나온다. --> select default profile 입력 후 git bash 선택.)
+3. Vs Code terminal(git bash)에서 'git init' 입력  --> 해당 폴더에 .git(숨겨진파일)이 생겻는지 확인. 해당 폴더를 git이 관리하도록 하겠다는 의미.
+4. sourceTree에서도 폴더를 연다.
+VS Code Terminal에서 
+5. git config --global user.name "유저이름 입력"
+6. git config --global user.email "유저이메일 입력"    
+6-1  git config --global init.defaultBranch main 입력 -->  기본 master라는 브랜치를 main으로 이름 변경
+7. git config --global user.name/ git config --global user.email 만 치면 입력한 값 확인 가능.
+8. git remote add origin https://github.com/JUENINO/Legendary.git 을 입력  --> git에다가 원격 저장소(해당주소)를 origin이라는 이름으로 사용하겠다.
+9. git pull 입력
+10. 9번이 오류나면, git pull origin main 입력    --> 원격저장소(origin)의 데이터를 main에 pull 하겠다.  
+ 
+ 데이터가 받아짐.
+
+11. git push -u origin main     (이제 "git push" 명령어를 입력하면, origin(원격저장소)에 main의 내용을 자동으로 push하라는 의미.)
+
+12. 파일 변경 후 "git push"하면 github와 연동됨.
+
+--> 파일을 변경하면  옆 목록에 I , U 등등이 나옴.
+ commit을 하지 않으면 push 불가.
+
+ 1. git add .  입력     (git이 알아볼 수 있게 변경 내용들을 add 하겠다.)  add를 하지않으면 commit 불가.
+ 2. git commit -m '본인이 원하는대로 커밋 메시지 작성' 
+ 
+ --> git push 가능.
+
+
