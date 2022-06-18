@@ -1,3 +1,6 @@
+
+--test
+
 0. git(git bash), VS code, sourceTree 다운
 1. 빈 폴더 하나를 만든다.
 2. VS Code를 열어서 해당 빈 폴더를 연다. 
